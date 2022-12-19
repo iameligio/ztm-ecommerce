@@ -1,11 +1,11 @@
-import CategoryItem from "../category-item/category-item.component";
+import HomeCategoryItem from "../home-category-item/home-category-item.component";
 import "./home-categories.styles.scss";
 
 const HomeCategories = ({ categories }) => {
   return (
-    <div className="categories-container">
+    <div className="home-categories-container">
       {categories.map((category) => (
-        <CategoryItem key={category.id} category={category} />
+        <HomeCategoryItem key={category.id} category={category} />
       ))}
     </div>
   );
