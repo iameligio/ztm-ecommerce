@@ -1,3 +1,4 @@
+import React from "react";
 import HomeCategoryItem from "../home-category-item/home-category-item.component";
 import "./home-categories.styles.jsx";
 import { HomeCategoriesContainer } from "./home-categories.styles";

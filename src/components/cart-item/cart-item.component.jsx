@@ -1,3 +1,4 @@
+import React from "react";
 import "./cart-item.styles.jsx";
 import { CartItemContainer, ItemDetails } from "./cart-item.styles.jsx";
 
